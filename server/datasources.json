@@ -3,6 +3,16 @@
     "name": "db",
     "connector": "memory",
     "file": "db.json"
+  },
+  "mymongo": {
+    "host": "ds223760.mlab.com",
+    "port": 23760,
+    "url":  "mongodb://test:test@ds223760.mlab.com:23760/vaultdragon",
+    "database": "vaultdragon",
+    "password": "test",
+    "name": "mymongo",
+    "user": "test",
+    "connector": "mongodb"  
   }
 
 }

@@ -14,7 +14,11 @@ module.exports = function (KeyValue) {
       object.value = key[object.key];
       object.timestamp = new Date().getTime();
       KeyValue.create(object, function (err, saveObject) {
-        cb(null, saveObject);
+        var resObject = {};
+        resObject.key = saveObject.key;
+        resObject.value = saveObject.value;
+        resObject.timestamp = saveObject.timestamp;
+        cb(null, resObject);
       })
     }
 
