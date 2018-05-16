@@ -1,0 +1,22 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "keyvalue": 8
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "keyvalue": {
+      "5": "{\"key\":\"mykey\",\"value\":\"value12\",\"timestamp\":\"1526461457614\",\"id\":5}",
+      "6": "{\"key\":\"mykey\",\"value\":\"value12444\",\"timestamp\":\"1526464715810\",\"id\":6}",
+      "7": "{\"key\":\"mykey\",\"value\":\"value1\",\"timestamp\":\"1526466423118\",\"id\":7}"
+    }
+  }
+}
