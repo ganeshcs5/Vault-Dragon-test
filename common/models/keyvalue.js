@@ -27,7 +27,6 @@ module.exports = function (KeyValue) {
   //get function
   KeyValue.keyGet = function (key, timestamp, cb) {
 
-    console.log(timestamp)
     var whereClause = {
       order: 'timestamp DESC',
       where: {
@@ -42,7 +41,6 @@ module.exports = function (KeyValue) {
       if (obj.length == 0) {
         cb(null, "no values")
       } else if (timestamp == undefined || timestamp === "") {
-        console.log(timestamp + "      test")
         var object = {};
 
         object.value = obj[0].value
